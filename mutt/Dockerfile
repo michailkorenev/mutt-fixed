@@ -16,7 +16,8 @@ RUN apk --no-cache add \
 	lynx \
 	mutt \
 	mutt-doc \
-	vim
+	vim \
+	libsasl
 
 # a browser is necessary!
 ENV BROWSER lynx
